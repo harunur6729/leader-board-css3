@@ -168,6 +168,10 @@ Courses style end
         /* justify-content: center; */
         flex-direction: column;
     }
+    .blog{
+        display: grid;
+        margin-right: 16px;
+    }
   
     .blogs{
         grid-template-columns:repeat(1,1fr);
@@ -225,5 +229,6 @@ Courses style end
     .top-course{
         margin: 50px;
     }
+   
     
 }
