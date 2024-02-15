@@ -184,6 +184,14 @@ Courses style end
     .top-course{
         margin: 50px;
     }
+    .course img{
+        width: 100%;
+         height: 220px;
+     }
+     .course-info{
+        column-gap: 5px;
+    }
+   
 
 
 
@@ -210,7 +218,7 @@ Courses style end
     }
 
     .players{
-        grid-template-columns: repeat(1 ,1fr);
+        grid-template-columns: repeat(2 ,1fr);
         
     }
     .player{
@@ -229,6 +237,10 @@ Courses style end
     .top-course{
         margin: 50px;
     }
+    .course img{
+        width: 100%;
+         height: 320px;
+     }
    
     
 }
