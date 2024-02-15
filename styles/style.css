@@ -84,9 +84,12 @@ top players style  end
 .blog{
     display: flex;
     margin-right: 16px;
+    border: 1px solid lightgray;
+    padding: 5px;
 }
 .top-blogs{
     margin: 30px;
+   
 }
 .blog-info{
     margin-left: 16px;
@@ -113,13 +116,17 @@ Courses style starts
     justify-content: space-evenly;
     margin-bottom: 40px;
 }
+.top-course{
+    border: 1px solid lightgrey;
+    padding: 5px;
+}
 .course img{
    width: 100%;
     height: 120px;
 }
 .course-info{
     display: flex;
-    column-gap: 20px;
+    column-gap: 10px;
 }
 
 .fa-star.filled{
@@ -189,8 +196,9 @@ Courses style end
          height: 220px;
      }
      .course-info{
-        column-gap: 5px;
+        column-gap: 2px;
     }
+    
    
 
 
